@@ -330,7 +330,7 @@ section {
 }
 .verticaly button {
     position: absolute;
-    top: 740px;
+    top: 715px;
     left: 50px;
     border: hidden;
     background-color: inherit;
@@ -343,7 +343,7 @@ section {
 }
 .verticaly a {
     position: absolute;
-    top: 740px;
+    top: 715px;
     left: 465px;
     color: #fff;
     text-transform: uppercase;
