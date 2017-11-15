@@ -292,54 +292,45 @@ section {
     margin-top: 95px;
     float: left;
 }
-
-.buy-posters img {
-    width: 100%;
-}
-
 .buy-posters .verticaly {
     width: 560px;
     height: 765px;
     float: left;
 }
-
 .buy-posters .horizontaly {
     width: 740px;
     height: 370px;
     float: right;
 }
-
 .buy-posters .left1 {
     float: left;
-    margin-top: 20px;
+    margin-top: 70px;
     margin-left: 100px;
     height: 340px;
     width: 330px;
 }
-
 .buy-posters .right1 {
     float: right;
-    margin-top: 20px;
+    margin-top: 70px;
     height: 340px;
     width: 330px;
 }
-
 .verticaly .txt {
     position: absolute;
     top: 0;
-    padding-top: 165px;
-    padding-left: 30px;
+    padding-top: 205px;
+    padding-left: 50px;
     line-height: 1.1;
 }
 .verticaly h2 {
     text-transform: uppercase;
-    font-size: 75px;
+    font-size: 80px;
     text-align: center;
     color: #fff;
 }
 .verticaly button {
     position: absolute;
-    top: 650px;
+    top: 740px;
     left: 50px;
     border: hidden;
     background-color: inherit;
@@ -352,8 +343,8 @@ section {
 }
 .verticaly a {
     position: absolute;
-    top: 650px;
-    left: 420px;
+    top: 740px;
+    left: 465px;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -425,4 +416,90 @@ section {
 }
 .footer .container {
     width: 1400px;
+}
+.footer h1 {
+    margin-top: 125px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer ul {
+    margin-top: 60px;
+}
+.footer li {
+    margin-top: 22px;
+}
+.footer li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer a {
+    color: #000;
+    text-decoration: none;
+}
+.footer p {
+    margin-top: 60px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    max-width: 200px;
+}
+.footer .nr2 {
+    max-width: 245px;
+}
+.footer input {
+    width: 338px;
+    height: 40px;
+    background: #f2f4f5;
+    padding: 10px;
+    border: none;
+    margin: 30px 0;
+}
+.footer input:focus {
+    outline: none;
+}
+.footer button {
+    width: 130px;
+    height: 40px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.footer button:focus {
+    outline: none;
+}
+
+/* SECTION - LAST FOOTER */
+
+.last-footer {
+    background-color: #eee;
+    height: 95px;
+    padding: 45px 0;
+}
+.last-footer .container {
+    width: 1400px;
+}
+.last-footer p {
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+.last-footer ul {
+    float: right;
+}
+.last-footer li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #999;
+}
+.last-footer a {
+    color: #999;
+    text-decoration: none;
 }
