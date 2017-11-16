@@ -18,12 +18,26 @@
 
 
 <section class="menu">
+    <div id="popup-menu">
+        <div class="hg-wd">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li class="active"><a href="#">Categories</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <a href="#"><span class="close-menu">X close</span></a>
+        </div>
+    </div>
     <div class="container">
         <div class="float-left">
             <img src="img/logo.png">
         </div>
-        <div class="float-right">
-            <a href="#"><img src="img/menu.png"></a>
+        <div class="icone">
+            <a href="#">Menu</a>
         </div>
     </div>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -87,17 +101,13 @@
 
 <section class="audrey-hepburn">
     <div class="col-md-12">
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="float-left">
-                    <h1>I love people who make me laugh. I honestly think it’s the thing I like most, to laugh. It cures
-                        a multitude of ills. It's probably the most important thing in a person.</h1>
-                    <p>Audrey Hepburn</p>
-                </div>
-                <div class="float-right">
-                    <img src="img/audrey-img.jpg">
-                </div>
-            </div>
+        <div class="float-left">
+            <h1>I love people who make me laugh. I honestly think it’s the thing I like most, to laugh. It cures
+                a multitude of ills. It's probably the most important thing in a person.</h1>
+            <p>Audrey Hepburn</p>
+        </div>
+        <div class="float-right">
+            <img src="img/audrey-img.jpg">
         </div>
     </div>
 </section>
@@ -222,18 +232,44 @@
 <section class="last-footer">
     <div class="container">
         <p>2016 © Copyright - Quotes PSD Templates. All rights reserved.</p>
-     <ul>
-         <li><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-         <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-         <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-         <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-         <li><a href="https://plus.google.com/discover" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-         <li><a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-         <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-         <li><a href="https://www.gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-     </ul>
+        <ul>
+            <li><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"
+                                                                       aria-hidden="true"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://plus.google.com/discover" target="_blank"><i class="fa fa-google-plus"
+                                                                              aria-hidden="true"></i></a></li>
+            <li><a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"
+                                                                       aria-hidden="true"></i></a></li>
+            <li><a href="https://www.gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            </li>
+        </ul>
     </div>
 </section>
+
+<script>
+    $(document).ready(function () {
+        $("#popup-menu").hide();
+    });
+
+    $(".icone").on("click", function (e) {
+        e.preventDefault();
+        $(".icone").hide();
+        $("#popup-menu").show();
+    });
+
+    $(".close-menu").on("click", function (e) {
+        e.preventDefault();
+        $(".icone").show();
+        $("#popup-menu").hide();
+    });
+</script>
+
 
 </body>
 </html>
