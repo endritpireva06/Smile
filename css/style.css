@@ -8,7 +8,6 @@ body {
 section {
     clear: both;
 }
-
 .float-right {
     float: right;
 }
@@ -23,6 +22,55 @@ section {
 
 /* SECTION - MENU */
 
+#popup-menu{
+    width:100%;
+    height:110%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    z-index: 999;
+}
+.hg-wd a {
+    color: #fff;
+    text-decoration: none;
+}
+.hg-wd ul {
+    margin-top: 180px;
+    margin-left: 300px;
+}
+.hg-wd li {
+    margin-top: 45px;
+}
+.hg-wd ul a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.hg-wd .active a {
+    text-decoration: underline;
+}
+.close-menu {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+    font-size: 35px;
+    max-width: 80px;
+    text-align: center
+}
+.icone {
+    position: absolute;
+    z-index: 999;
+    right: 200px;
+    top: 50px;
+    color: #fff;
+    font-size: 20px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+}
+.icone a {
+    color: #fff;
+    text-decoration: none;
+}
 .menu {
     height: 1000px;
 }
@@ -130,10 +178,14 @@ section {
 
 .audrey-hepburn .float-left {
     width: 50%;
+    float: left;
 }
-
+.audrey-hepburn img {
+    float: right;
+}
 .audrey-hepburn .float-right {
     width: 50%;
+    float: right;
 }
 
 .audrey-hepburn p {
