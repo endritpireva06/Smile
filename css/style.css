@@ -80,29 +80,24 @@ section {
     position: absolute;
     top: 35px;
 }
-
 .menu .float-right {
     z-index: 999;
     position: absolute;
     top: 35px;
     right: 200px;
 }
-
 .menu .carousel-indicators li {
     background-color: #000;
     width: 16px;
     height: 16px;
     margin-right: 25px;
 }
-
 .menu .carousel-indicators {
     bottom: 90px;
 }
-
 .menu .carousel-indicators .active {
     background-color: #fff;
 }
-
 .menu h1 {
     position: absolute;
     right: 230px;
@@ -111,7 +106,6 @@ section {
     z-index: 999;
     font-size: 220px;
 }
-
 .menu p {
     position: absolute;
     right: 255px;
@@ -128,27 +122,23 @@ section {
     text-align: center;
     height: 670px;
 }
-
 .free-psd h2 {
     font-size: 58px;
     padding-top: 90px;
     padding-bottom: 30px;
     font-weight: lighter;
 }
-
 .free-psd h1 {
     font-size: 60px;
     font-weight: 600;
     padding-bottom: 40px;
     color: #000;
 }
-
 .free-psd p {
     font-size: 20px;
     font-weight: 600;
     line-height: 1.5;
 }
-
 .free-psd hr {
     border: 1px solid black;
     width: 80px;
@@ -161,12 +151,10 @@ section {
 .audrey-hepburn {
     margin-top: 100px;
 }
-
 .audrey-hepburn .col-md-12 {
     height: 650px;
     background-color: #ffe9e2;
 }
-
 .audrey-hepburn h1 {
     width: 550px;
     margin-top: 140px;
@@ -175,7 +163,6 @@ section {
     font-weight: 600;
     font-size: 36px;
 }
-
 .audrey-hepburn .float-left {
     width: 50%;
     float: left;
@@ -187,24 +174,20 @@ section {
     width: 50%;
     float: right;
 }
-
 .audrey-hepburn p {
     margin-top: 60px;
     margin-left: 100px;
     font-size: 20px;
     font-weight: 300;
 }
-
 .audrey-hepburn li {
     border: 1px solid #999;
     border-radius: 50%;
     background-color: #ffe9e2;
 }
-
 .audrey-hepburn .carousel-indicators {
     left: 125px;
 }
-
 .audrey-hepburn .carousel-indicators .active {
     background-color: #999;
 }
@@ -214,31 +197,26 @@ section {
 .reason .container {
     width: 1400px;
 }
-
 .reason h1 {
     font-size: 60px;
     font-weight: 600;
     padding-top: 130px;
 }
-
 .reason hr {
     border: 1px solid;
     width: 80px;
     float: left;
     margin-top: 40px;
 }
-
 .reason .row {
     float: left;
     margin-top: 95px;
 }
-
 .reason .col-md-6 {
     border: 1px solid #999999;
     width: 700px;
     height: 288px;
 }
-
 .reason h2 {
     font-size: 30px;
     font-weight: 600;
@@ -246,7 +224,6 @@ section {
     padding-top: 55px;
     padding-left: 15px;
 }
-
 .reason h6 {
     width: 630px;
     padding-top: 45px;
@@ -255,23 +232,18 @@ section {
     font-weight: 300;
     line-height: 1.2;
 }
-
 .reason p {
     padding-left: 15px;
 }
-
 .reason .up {
     padding-top: 15px;
 }
-
 .reason .down {
     padding-top: 40px;
 }
-
 .reason .col-md-12 {
     text-align: center;
 }
-
 .reason button {
     border: 2px solid black;
     border-radius: 5px;
@@ -283,7 +255,6 @@ section {
     font-size: 20px;
     margin-top: 65px;
 }
-
 .reason button:focus {
     outline: none;
 }
@@ -300,7 +271,6 @@ section {
     color: #fff;
     text-align: center;
 }
-
 .forth h1 {
     font-size: 60px;
     font-weight: 600;
@@ -309,7 +279,6 @@ section {
     width: 815px;
     margin: 0 auto;
 }
-
 .forth a {
     color: #fff;
     text-decoration: underline;
@@ -321,11 +290,9 @@ section {
     background-color: #eee;
     height: 1330px;
 }
-
 .buy-posters .container {
     width: 1400px;
 }
-
 .buy-posters h1 {
     margin-top: 105px;
     margin-bottom: 25px;
@@ -333,13 +300,11 @@ section {
     font-weight: 600;
     color: #000;
 }
-
 .buy-posters hr {
     border: 2px solid black;
     width: 80px;
     float: left;
 }
-
 .buy-posters .row {
     margin-top: 95px;
     float: left;
