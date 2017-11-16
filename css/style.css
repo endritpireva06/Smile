@@ -114,11 +114,11 @@ section {
 
 .menu p {
     position: absolute;
-    right: 230px;
+    right: 255px;
     top: 582px;
     color: #fff;
     z-index: 999;
-    font-size: 64px;
+    font-size: 70px;
     padding-top: 50px;
 }
 
