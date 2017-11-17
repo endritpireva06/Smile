@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
+    color: #000;
 }
 section {
     clear: both;
@@ -44,10 +45,12 @@ section {
     color: #fff;
     text-transform: uppercase;
     font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
 }
 .hg-wd .active a {
+    border-bottom: 2px solid #fff;
     text-space: 10px;
-    text-decoration: underline;
     color: #fff !important;
 }
 .hg-wd .x {
@@ -64,6 +67,7 @@ section {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
+    letter-spacing: 2px;
 }
 .icone {
     position: absolute;
@@ -71,20 +75,25 @@ section {
     right: 200px;
     top: 50px;
     color: #fff;
-    font-size: 20px;
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-    padding: 10px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    padding: 8px 0;
 }
 .icone a {
     color: #fff;
     text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 .menu {
     height: 1000px;
 }
 
 .menu .float-left {
+    height: 80px;
+    width: 200px;
     z-index: 999;
     position: absolute;
     top: 35px;
@@ -109,20 +118,23 @@ section {
 }
 .menu h1 {
     position: absolute;
-    right: 230px;
+    right:222px;
     top: 395px;
     color: #fff;
     z-index: 999;
     font-size: 220px;
+    font-weight: 400;
 }
 .menu p {
     position: absolute;
-    right: 255px;
+    right: 222px;
     top: 582px;
     color: #fff;
     z-index: 999;
-    font-size: 70px;
+    font-size: 64px;
+    font-weight: 400;
     padding-top: 50px;
+    letter-spacing: 3px;
 }
 
 /* SECTION FREE-PSD */
@@ -132,24 +144,31 @@ section {
     height: 670px;
 }
 .free-psd h2 {
-    font-size: 58px;
+    font-size: 60px;
     padding-top: 90px;
     padding-bottom: 30px;
-    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
 }
 .free-psd h1 {
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 40px;
     color: #000;
 }
 .free-psd p {
     font-size: 20px;
     font-weight: 600;
+    line-height: 1.1;
+}
+.free-psd .phg2 {
+    width: 88%;
+    margin: 0 auto;
+    font-weight: 500;
     line-height: 1.5;
 }
 .free-psd hr {
-    border: 1px solid black;
+    border: 2px solid black;
     width: 80px;
     margin-top: 45px;
     margin-bottom: 65px;
@@ -160,34 +179,25 @@ section {
 .item {
     transition-property: opacity;
 }
-
 .item,
 .active.left,
 .active.right {
     opacity: 0;
 }
-
 .active,
 .next.left,
 .prev.right {
     opacity: 1;
 }
-
 .next,
 .prev,
 .active.left,
 .active.right {
     left: 0;
 }
-
-
 .carousel-control {
     z-index: 2;
 }
-
-
-
-
 html,
 body,
 .carousel,
@@ -195,9 +205,13 @@ body,
 .carousel-inner .item {
     height: 100%;
 }
-
-
-
+.carousel-indicators {
+    bottom: 80px;
+}
+.audrey-hepburn ol li {
+    width: 10px;
+    height: 10px;
+}
 .audrey-hepburn {
     margin-top: 100px;
     height: 650px;
@@ -207,9 +221,10 @@ body,
     width: 550px;
     margin-top: 140px;
     margin-left: 100px;
-    line-height: 1.5;
-    font-weight: 600;
+    line-height: 1.2;
+    font-weight: 700;
     font-size: 36px;
+    color: #000;
 }
 .audrey-hepburn .float-left {
     width: 50%;
@@ -225,7 +240,7 @@ body,
 .audrey-hepburn p {
     margin-top: 60px;
     margin-left: 100px;
-    font-size: 20px;
+    font-size: 36px;
     font-weight: 300;
 }
 .audrey-hepburn li {
@@ -238,6 +253,8 @@ body,
 }
 .audrey-hepburn .carousel-indicators .active {
     background-color: #999;
+    width: 12px;
+    height: 12px;
 }
 
 /* SECTION - REASON */
@@ -246,12 +263,13 @@ body,
     width: 1400px;
 }
 .reason h1 {
+    color: #000;
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 700;
     padding-top: 130px;
 }
 .reason hr {
-    border: 1px solid;
+    border: 2px solid;
     width: 80px;
     float: left;
     margin-top: 40px;
@@ -261,13 +279,23 @@ body,
     margin-top: 95px;
 }
 .reason .col-md-6 {
-    border: 1px solid #999999;
+    border: 1px solid #eae9e7;
     width: 700px;
-    height: 288px;
+    height: 300px;
+}
+.reason .border1 {
+    border-bottom: none;
+    border-right: none;
+}
+.reason .border2 {
+    border-bottom: none;
+}
+.reason .border3 {
+    border-right: none;
 }
 .reason h2 {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     padding-top: 55px;
     padding-left: 15px;
@@ -277,10 +305,12 @@ body,
     padding-top: 45px;
     padding-left: 15px;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.2;
 }
 .reason p {
+    font-size: 20px;
+    font-weight: 400;
     padding-left: 15px;
 }
 .reason .up {
@@ -295,13 +325,16 @@ body,
 .reason button {
     border: 2px solid black;
     border-radius: 5px;
-    width: 275px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 280px;
     height: 60px;
     background-color: #fff;
     color: #000;
     text-transform: uppercase;
-    font-size: 20px;
+    letter-spacing: 3px;
     margin-top: 65px;
+    font-family: 'Montserrat', sans-serif;
 }
 .reason button:focus {
     outline: none;
@@ -321,11 +354,16 @@ body,
 }
 .forth h1 {
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 700;
     padding-top: 205px;
     padding-bottom: 65px;
     width: 815px;
     margin: 0 auto;
+    line-height: 1.3;
+}
+.forth p {
+    font-size: 20px;
+    font-weight: 400;
 }
 .forth a {
     color: #fff;
@@ -334,6 +372,26 @@ body,
 
 /* SECTION - BUY-POSTERS */
 
+
+.buy-posters .bk {
+    background-color: #000;
+    opacity: 0.6;
+    z-index: -1;
+    width: 330px;
+    height: 340px;
+}
+.buy-posters .bk2 {
+    background-color: #fff;
+    width: 330px;
+    height: 340px;
+    opacity: 0.9;
+}
+.buy-posters .bk3 {
+    opacity: 0.8;
+}
+.buy-posters .bk4 {
+    opacity: 0.8;
+}
 .buy-posters {
     background-color: #eee;
     height: 1330px;
@@ -344,8 +402,8 @@ body,
 .buy-posters h1 {
     margin-top: 105px;
     margin-bottom: 25px;
-    font-size: 64px;
-    font-weight: 600;
+    font-size: 60px;
+    font-weight: 700;
     color: #000;
 }
 .buy-posters hr {
@@ -373,27 +431,29 @@ body,
     left: 80px;
     max-width: 320px;
     line-height: 1.1;
-    font-size: 33px;
-    font-weight: 600;
-    font-family: "Times New Roman Bold Italic";
+    font-size: 36px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Times New Roman";
 }
 .horizontaly h6 {
     position: absolute;
     top: 185px;
     left: 80px;
     font-size: 20px;
-    font-family: "Times New Roman Bold Italic"
+    font-weight: 400;
+    font-family: Georgia;
 }
 .buy-posters .left1 {
     float: left;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 100px;
     height: 340px;
     width: 330px;
 }
 .buy-posters .right1 {
     float: right;
-    margin-top: 70px;
+    margin-top: 50px;
     height: 340px;
     width: 330px;
 }
@@ -441,38 +501,41 @@ body,
     position: absolute;
     top: 35px;
     left: 105px;
-    font-size: 30px;
     max-width: 145px;
+    font-weight: 400;
+    font-size: 30px;
     font-family: 'Sedgwick Ave Display', cursive;
 }
 .right1 h3 {
     position: absolute;
     top: 170px;
-    left: 75px;
+    left: 95px;
     color: #fff;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
 }
 .right1 span {
-    font-weight: 600;
-    font-size: 45px;
+    font-weight: 700;
+    font-size: 37px;
     line-height: 1.1;
 }
 .buy-posters .col-md-12 {
     text-align: center;
 }
 .buy-posters .col-md-12 button {
+    margin-top: 90px;
     background: inherit;
     border: 2px solid black;
     border-radius: 5px;
     text-transform: uppercase;
+    letter-spacing: 3px;
     width: 280px;
     height: 60px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     color: #000;
-    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 .buy-posters .col-md-12 button:focus {
     outline: none;
@@ -488,8 +551,10 @@ body,
 }
 .footer h1 {
     margin-top: 125px;
+    letter-spacing: 3px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
 }
 .footer ul {
     margin-top: 60px;
@@ -500,8 +565,9 @@ body,
 .footer li a {
     color: #000;
     text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 .footer a {
     color: #000;
@@ -511,12 +577,11 @@ body,
     margin-top: 60px;
     color: #000;
     font-size: 16px;
-    font-weight: 600;
-    line-height: 1.5;
-    max-width: 200px;
-}
-.footer .nr2 {
-    max-width: 245px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 215px;
+    letter-spacing: 1px;
+    line-height: 1.6;
 }
 .footer input {
     width: 338px;
@@ -525,6 +590,8 @@ body,
     padding: 10px;
     border: none;
     margin: 30px 0;
+    font-size: 15px;
+    font-weight: 400;
 }
 .footer input:focus {
     outline: none;
@@ -535,9 +602,11 @@ body,
     background: #fff;
     border: 2px solid #000;
     border-radius: 5px;
-    color: #000;
+    color: #333;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 3px;
 }
 .footer button:focus {
     outline: none;
@@ -554,9 +623,11 @@ body,
     width: 1400px;
 }
 .last-footer p {
+    font-family: 'Montserrat', sans-serif;
     float: left;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
+    letter-spacing: 2px;
     color: #000;
 }
 .last-footer ul {
@@ -565,10 +636,9 @@ body,
 .last-footer li {
     display: inline-block;
     margin-right: 10px;
-    font-size: 20px;
-    color: #999;
 }
 .last-footer a {
-    color: #999;
+    color: #d5d5d3;
     text-decoration: none;
+    font-size: 16px;
 }
