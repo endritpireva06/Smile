@@ -29,7 +29,8 @@ section {
     z-index: 999;
 }
 .hg-wd a {
-    color: #fff;
+    font-weight: 600;
+    color: #626262 !important;
     text-decoration: none;
 }
 .hg-wd ul {
@@ -45,15 +46,24 @@ section {
     font-size: 50px;
 }
 .hg-wd .active a {
+    text-space: 10px;
     text-decoration: underline;
+    color: #fff !important;
+}
+.hg-wd .x {
+    font-size: 50px;
 }
 .close-menu {
     position: absolute;
     right: 200px;
     top: 50px;
-    font-size: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.1;
     max-width: 80px;
-    text-align: center
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
 }
 .icone {
     position: absolute;
@@ -147,10 +157,49 @@ section {
 
 /* SECTION - AUDERY-HEPBURN */
 
+.item {
+    transition-property: opacity;
+}
+
+.item,
+.active.left,
+.active.right {
+    opacity: 0;
+}
+
+.active,
+.next.left,
+.prev.right {
+    opacity: 1;
+}
+
+.next,
+.prev,
+.active.left,
+.active.right {
+    left: 0;
+}
+
+
+.carousel-control {
+    z-index: 2;
+}
+
+
+
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%;
+}
+
+
+
 .audrey-hepburn {
     margin-top: 100px;
-}
-.audrey-hepburn .col-md-12 {
     height: 650px;
     background-color: #ffe9e2;
 }
@@ -318,6 +367,23 @@ section {
     height: 370px;
     float: right;
 }
+.horizontaly h3 {
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    max-width: 320px;
+    line-height: 1.1;
+    font-size: 33px;
+    font-weight: 600;
+    font-family: "Times New Roman Bold Italic";
+}
+.horizontaly h6 {
+    position: absolute;
+    top: 185px;
+    left: 80px;
+    font-size: 20px;
+    font-family: "Times New Roman Bold Italic"
+}
 .buy-posters .left1 {
     float: left;
     margin-top: 70px;
@@ -370,22 +436,7 @@ section {
 .verticaly i {
     margin-left: 10px;
 }
-.horizontaly h3 {
-    position: absolute;
-    top: 90px;
-    left: 80px;
-    max-width: 320px;
-    line-height: 1.1;
-    font-size: 33px;
-    font-weight: 600;
-    font-family: 'Ranga', cursive;
-}
-.horizontaly h6 {
-    position: absolute;
-    top: 185px;
-    left: 80px;
-    font-size: 20px;
-}
+
 .left1 h3 {
     position: absolute;
     top: 35px;
