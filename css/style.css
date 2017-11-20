@@ -27,7 +27,7 @@ section {
     height:110%;
     background: rgba(0, 0, 0, 0.9);
     position: absolute;
-    z-index: 999;
+    z-index: 9999;
 }
 .hg-wd a {
     font-weight: 600;
@@ -45,16 +45,20 @@ section {
     color: #fff;
     text-transform: uppercase;
     font-size: 50px;
+    font-weight: 700;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
 }
 .hg-wd .active a {
-    border-bottom: 2px solid #fff;
+    border-bottom: 3px solid #fff;
     text-space: 10px;
     color: #fff !important;
 }
-.hg-wd .x {
-    font-size: 50px;
+.hg-wd img {
+    margin-bottom: 5px;
+}
+.carousel-inner img {
+    opacity: 0.9;
 }
 .close-menu {
     position: absolute;
@@ -162,7 +166,7 @@ section {
     line-height: 1.1;
 }
 .free-psd .phg2 {
-    width: 88%;
+    width: 85%;
     margin: 0 auto;
     font-weight: 500;
     line-height: 1.5;
@@ -221,7 +225,7 @@ body,
     width: 550px;
     margin-top: 140px;
     margin-left: 100px;
-    line-height: 1.2;
+    line-height: 1.3;
     font-weight: 700;
     font-size: 36px;
     color: #000;
@@ -232,6 +236,10 @@ body,
 }
 .audrey-hepburn img {
     float: right;
+}
+.audrey-hepburn .move-img {
+    padding-right: 100px;
+    padding-top: 60px;
 }
 .audrey-hepburn .float-right {
     width: 50%;
@@ -253,10 +261,10 @@ body,
 }
 .audrey-hepburn .carousel-indicators .active {
     background-color: #999;
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
 }
-
 /* SECTION - REASON */
 
 .reason .container {
@@ -301,7 +309,7 @@ body,
     padding-left: 15px;
 }
 .reason h6 {
-    width: 630px;
+    width: 595px;
     padding-top: 45px;
     padding-left: 15px;
     font-size: 20px;
@@ -314,7 +322,7 @@ body,
     padding-left: 15px;
 }
 .reason .up {
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .reason .down {
     padding-top: 40px;
@@ -348,6 +356,7 @@ body,
     background-size: cover;
     width: 100%;
     height: 660px;
+    opacity: 0.8;
     margin-top: 140px;
     color: #fff;
     text-align: center;
@@ -357,7 +366,7 @@ body,
     font-weight: 700;
     padding-top: 205px;
     padding-bottom: 65px;
-    width: 815px;
+    width: 830px;
     margin: 0 auto;
     line-height: 1.3;
 }
@@ -374,16 +383,9 @@ body,
 
 
 .buy-posters .bk {
-    background-color: #000;
     opacity: 0.6;
-    z-index: -1;
-    width: 330px;
-    height: 340px;
 }
 .buy-posters .bk2 {
-    background-color: #fff;
-    width: 330px;
-    height: 340px;
     opacity: 0.9;
 }
 .buy-posters .bk3 {
@@ -393,7 +395,7 @@ body,
     opacity: 0.8;
 }
 .buy-posters {
-    background-color: #eee;
+    background-color: #f2f4f5;
     height: 1330px;
 }
 .buy-posters .container {
@@ -420,10 +422,88 @@ body,
     height: 765px;
     float: left;
 }
+.verticaly .txt {
+    position: absolute;
+    top: 0;
+    padding-top: 205px;
+    padding-left: 120px;
+    line-height: 1.1;
+}
+.verticaly h2 {
+    font-family: "Tw Cen MT Condensed";
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+}
+.verticaly button {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    border: hidden;
+    background-color: inherit;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+.verticaly button:focus {
+    outline: none;
+}
+.verticaly a {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.verticaly img {
+    margin-left: 10px;
+}
 .buy-posters .horizontaly {
     width: 740px;
     height: 370px;
     float: right;
+}
+.buy-posters .horizontaly button{
+    position: absolute;
+    bottom: 40px;
+    left: 55px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 175px;
+    height: 55px;
+    background-color: inherit;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+.horizontaly button:focus {
+    outline: none;
+}
+.buy-posters .horizontaly a {
+    position: absolute;
+    right: 30px;
+    bottom: 55px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.buy-posters .horizontaly img {
+    margin-left: 10px;
 }
 .horizontaly h3 {
     position: absolute;
@@ -451,52 +531,72 @@ body,
     height: 340px;
     width: 330px;
 }
+.buy-posters .left1 button {
+    position: absolute;
+    bottom: 20px;
+    left: 35px;
+    border: none;
+    background-color: initial;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+.left1 button:focus {
+    outline: none;
+}
+.buy-posters .left1 a {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.buy-posters .left1 img {
+    margin-left: 10px;
+}
 .buy-posters .right1 {
     float: right;
     margin-top: 50px;
     height: 340px;
     width: 330px;
 }
-.verticaly .txt {
+.buy-posters .right1 button {
     position: absolute;
-    top: 0;
-    padding-top: 205px;
-    padding-left: 120px;
-    line-height: 1.1;
-}
-.verticaly h2 {
-    font-family: "Tw Cen MT Condensed";
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 80px;
-    text-align: center;
-    color: #fff;
-}
-.verticaly button {
-    position: absolute;
-    top: 715px;
-    left: 50px;
-    border: hidden;
-    background-color: inherit;
+    bottom: 20px;
+    left: 35px;
+    border: none;
+    background-color: initial;
     color: #fff;
     text-transform: uppercase;
     font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
 }
-.verticaly button:focus {
+.right1 button:focus {
     outline: none;
 }
-.verticaly a {
+.buy-posters .right1 a {
     position: absolute;
-    top: 715px;
-    left: 465px;
+    right: 0;
+    bottom: 20px;
+    font-size: 15px;
+    font-weight: 700;
     color: #fff;
     text-transform: uppercase;
+    letter-spacing: 3px;
     text-decoration: none;
 }
-.verticaly i {
+.buy-posters .right1 img {
     margin-left: 10px;
 }
-
 .left1 h3 {
     position: absolute;
     top: 35px;
@@ -572,6 +672,7 @@ body,
 .footer a {
     color: #000;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 .footer p {
     margin-top: 60px;
@@ -579,9 +680,12 @@ body,
     font-size: 16px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
-    max-width: 215px;
-    letter-spacing: 1px;
-    line-height: 1.6;
+    max-width: 245px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+.footer .pheight {
+    line-height: 1.3;
 }
 .footer input {
     width: 338px;
@@ -589,7 +693,8 @@ body,
     background: #f2f4f5;
     padding: 10px;
     border: none;
-    margin: 30px 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
     font-size: 15px;
     font-weight: 400;
 }
