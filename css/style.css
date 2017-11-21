@@ -464,7 +464,7 @@ body,
     font-weight: 700;
     letter-spacing: 3px;
 }
-.verticaly img {
+.verticaly .img {
     margin-left: 10px;
 }
 .buy-posters .horizontaly {
@@ -502,7 +502,7 @@ body,
     letter-spacing: 3px;
     text-decoration: none;
 }
-.buy-posters .horizontaly img {
+.buy-posters .horizontaly .img {
     margin-left: 10px;
 }
 .horizontaly h3 {
@@ -558,7 +558,7 @@ body,
     letter-spacing: 3px;
     text-decoration: none;
 }
-.buy-posters .left1 img {
+.buy-posters .left1 .img {
     margin-left: 10px;
 }
 .buy-posters .right1 {
@@ -594,7 +594,7 @@ body,
     letter-spacing: 3px;
     text-decoration: none;
 }
-.buy-posters .right1 img {
+.buy-posters .right1 .img {
     margin-left: 10px;
 }
 .left1 h3 {
@@ -747,3 +747,162 @@ body,
     text-decoration: none;
     font-size: 16px;
 }
+
+/* RESPONSIVE - LAPTOPS */
+
+@media only screen
+and (min-width: 1030px)
+and (max-width: 1366px) {
+
+    /* MENU */
+
+    #container {
+        width: 1366px;
+    }
+    .menu .carousel-inner img {
+        width: 100%;
+        height: 1000px;
+    }
+    #popup-menu {
+        height: 151%;
+    }
+
+    /* AUDREY-HEPBURN */
+
+    .lp-respons {
+        width: 100%;
+        height: 650px;
+    }
+
+    /* REASONS */
+    .reason .col-md-6 {
+        border: 1px solid #eae9e7;
+        width: 663px;
+        height: 300px;
+    }
+    .border1, .border3 {
+        margin-left: 12px;
+    }
+
+    /* BUY-POSTERS */
+
+    .buy-posters .bk4 {
+        width: 100%;
+    }
+    .verticaly button {
+        position: absolute;
+        bottom: 70px;
+        left: 40px;
+        border: hidden;
+        background-color: inherit;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .verticaly a {
+        position: absolute;
+        bottom: 70px;
+        right: 40px;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 3px;
+    }
+    .buy-posters .bk3 {
+        width: 100%;
+    }
+    .buy-posters .horizontaly {
+        width: 740px;
+        height: 370px;
+        float: left;
+    }
+    .buy-posters .horizontaly .wdth {
+        width: 94.5%;
+        margin-left: 60px;
+    }
+    .horizontaly h3 {
+        position: absolute;
+        top: 90px;
+        left: 100px;
+        max-width: 320px;
+        line-height: 1.1;
+        font-size: 36px;
+        font-weight: 700;
+        font-style: italic;
+        font-family: "Times New Roman";
+    }
+    .horizontaly h6 {
+        position: absolute;
+        top: 185px;
+        left: 100px;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: Georgia;
+    }
+    .buy-posters .horizontaly button {
+        position: absolute;
+        bottom: 45px;
+        left: 100px;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        width: 175px;
+        height: 55px;
+        background-color: inherit;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .buy-posters .horizontaly a {
+        position: absolute;
+        right: 40px;
+        bottom: 60px;
+        font-size: 15px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-decoration: none;
+    }
+    .buy-posters .left1 {
+        float: left;
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+    .buy-posters .right1 {
+        float: left;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    /* FOOTER */
+    .footer input {
+        width: 270px;
+    }
+    /* LAST - FOOTER */
+    .last-footer ul {
+        float: right;
+        margin-right: 75px;
+    }
+}
+
+/* MOBILE RESPONSIVE */
+
+@media only screen
+and (min-device-width : 360px)
+and (max-device-width : 640px) {
+
+    /* MENU */
+
+
+
+
+}
+
