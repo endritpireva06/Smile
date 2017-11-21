@@ -1035,6 +1035,10 @@ and (min-width: 320px) and (max-width: 480px) {
         height: 440px;
     }
 
+    .float-left img {
+        width: 70%;
+    }
+
     .menu .carousel-inner img {
         width: 100%;
         height: 400px;
@@ -1116,6 +1120,10 @@ and (min-width: 320px) and (max-width: 480px) {
     }
 
     /* AUDREY - HEPBURN */
+    .audrey-hepburn {
+        margin-top: 20px;
+    }
+
     .audrey-hepburn .float-left {
         float: left;
         width: 100%;
@@ -1185,6 +1193,11 @@ and (min-width: 320px) and (max-width: 480px) {
     }
 
     /* BUY-POSTERS */
+    .buy-posters {
+        background-color: #f2f4f5;
+        height: 1725px;
+    }
+
     .buy-posters h1 {
         font-size: 35px;
     }
@@ -1235,7 +1248,7 @@ and (min-width: 320px) and (max-width: 480px) {
 
     .buy-posters .horizontaly {
         width: 336px;
-        height: 190px
+        height: 165px
     }
 
     .horizontaly h3 {
@@ -1252,9 +1265,10 @@ and (min-width: 320px) and (max-width: 480px) {
         left: 28px;
         font-size: 13px;
     }
+
     .buy-posters .horizontaly button {
         position: absolute;
-        bottom: 45px;
+        bottom: 20px;
         left: 30px;
         width: 105px;
         height: 30px;
@@ -1264,13 +1278,60 @@ and (min-width: 320px) and (max-width: 480px) {
     .buy-posters .horizontaly a {
         position: absolute;
         right: 41px;
-        bottom: 50px;
+        bottom: 25px;
         font-size: 10px;
+    }
+
+    .buy-posters .left1 {
+        float: left;
+        margin-top: 0;
+        margin-left: 0;
+        height: 263px;
+        width: 337px;
+        margin-bottom: 20px;
     }
 
     .buy-posters .img {
         margin-left: 10px;
         width: 20%;
+    }
+
+    .buy-posters .left1 button {
+        position: absolute;
+        top: 275px;
+        left: 20px;
+        font-size: 13px;
+    }
+
+    .buy-posters .left1 a {
+        position: absolute;
+        right: 30px;
+        top: 275px;
+        font-size: 10px;
+    }
+
+    .buy-posters .right1 {
+        margin-top: 50px;
+        height: 334px;
+        width: 335px;
+    }
+
+    .buy-posters .right1 button {
+        position: absolute;
+        bottom: 30px;
+        left: 20px;
+        font-size: 13px;
+    }
+
+    .buy-posters .right1 a {
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
+        font-size: 10px;
+    }
+
+    .buy-posters .col-md-12 {
+        float: left;
     }
 
     /* FOOTER */
@@ -1286,7 +1347,41 @@ and (min-width: 320px) and (max-width: 480px) {
         display: block;
     }
 
-    /* LAST - FOOTER */
+    .footer h1 {
+        margin-top: 75px;
+    }
 
+    .footer ul {
+        margin-top: 45px;
+    }
+
+    .footer li {
+        margin-top: 20px;
+    }
+
+    .footer button {
+        margin-bottom: 15px;
+    }
+
+    /* LAST - FOOTER */
+    .last-footer {
+        padding: 0;
+    }
+
+    .last-footer p {
+        font-size: 15px;
+        max-width: 290px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: 10px;
+        clear: both;
+    }
+
+    .last-footer ul {
+        float: left;
+        clear: both;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
 }
 
