@@ -274,8 +274,8 @@ body,
 }
 
 .audrey-hepburn .move-img {
-    padding-right: 100px;
-    padding-top: 60px;
+    /*padding-right: 100px;*/
+    /*padding-top: 60px;*/
 }
 
 .audrey-hepburn .float-right {
@@ -866,6 +866,10 @@ body,
 
 @media only screen
 and (min-width: 1030px) and (max-width: 1366px) {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
 
     /* MENU */
     #container {
@@ -1023,8 +1027,11 @@ and (min-width: 1030px) and (max-width: 1366px) {
 @media only screen
 and (min-width: 320px) and (max-width: 480px) {
 
-    body {
-        width: 100%;
+    /*html{*/
+    /*overflow-x:hidden;*/
+    /*}*/
+    #container {
+        overflow-x: hidden;
     }
 
     section {
@@ -1033,20 +1040,20 @@ and (min-width: 320px) and (max-width: 480px) {
 
     /* MENU */
     .menu {
-        height: 440px;
+        height: 320px;
     }
 
     .menu h1 {
         position: absolute;
         right: 100px;
-        top: 195px;
+        top: 135px;
         font-size: 36px;
     }
 
     .menu p {
         position: absolute;
         right: 0px;
-        top: 195px;
+        top: 130px;
         max-width: 205px;
         font-size: 30px;
     }
@@ -1055,22 +1062,22 @@ and (min-width: 320px) and (max-width: 480px) {
         width: 70%;
     }
 
+    .menu .carousel-indicators {
+        bottom: 25px;
+    }
+
     .menu .carousel-inner img {
         width: 100%;
-        height: 400px;
+        height: 310px;
     }
 
     #popup-menu {
         width: 100%;
-        height: 400px;
+        height: 310px;
     }
 
     .carousel-inner .item {
-        height: 65%;
-    }
-
-    .hg-wd li {
-        margin-top: 20px;
+        height: 50%;
     }
 
     .carousel-inner .item {
@@ -1092,18 +1099,34 @@ and (min-width: 320px) and (max-width: 480px) {
 
     .menu .carousel-indicators li {
         background-color: #000;
-        width: 10px;
-        height: 10px;
+        width: 15px;
+        height: 15px;
         margin-right: 10px;
     }
 
+    .hg-wd li {
+        margin-top: 20px;
+    }
+
     .hg-wd ul {
-        margin-top: 100px;
+        margin-top: 40px;
         margin-left: 45px;
     }
 
     .hg-wd ul a {
         font-size: 20px;
+    }
+
+    .close-menu img {
+        width: 30%;
+    }
+
+    .close-menu {
+        max-width: 50px;
+        font-size: 8px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
     }
 
     /* FREE - PSD */
@@ -1159,14 +1182,27 @@ and (min-width: 320px) and (max-width: 480px) {
 
     .audrey-hepburn img {
         width: 180%;
+        height: 290px;
         float: right;
         margin-right: 18px;
         margin-top: 25px;
     }
 
+    .audrey-hepburn ol li {
+        width: 15px;
+        height: 15px;
+    }
+
     .audrey-hepburn .carousel-indicators {
         left: 160px;
         bottom: 35px;
+    }
+
+    .audrey-hepburn .carousel-indicators .active {
+        background-color: #999;
+        width: 15px;
+        height: 15px;
+        margin: 1px;
     }
 
     /* REASON */
@@ -1208,6 +1244,7 @@ and (min-width: 320px) and (max-width: 480px) {
     .forth {
         margin-top: 80px;
     }
+
     .forth h1 {
         font-size: 30px;
         width: 332px;
@@ -1218,9 +1255,14 @@ and (min-width: 320px) and (max-width: 480px) {
     }
 
     /* BUY-POSTERS */
+    .buy-posters .container {
+        width: 100%;
+    }
+
     .buy-posters {
         background-color: #f2f4f5;
         height: 1590px;
+        width: 100%;
     }
 
     .buy-posters h1 {
@@ -1230,6 +1272,8 @@ and (min-width: 320px) and (max-width: 480px) {
 
     .buy-posters img {
         width: 100%;
+        float: right;
+        margin-right: 8px;
     }
 
     .buy-posters .row {
@@ -1258,7 +1302,7 @@ and (min-width: 320px) and (max-width: 480px) {
     .verticaly .txt {
         position: absolute;
         top: 100px;
-        left: 110px;
+        left: 85px;
         padding-top: 0;
         padding-left: 0;
         line-height: 1.1;
