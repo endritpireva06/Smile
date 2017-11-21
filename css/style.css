@@ -2,12 +2,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
-    overflow-x: hidden;
     color: #000;
 }
+
 section {
     clear: both;
 }
+
 .float-right {
     float: right;
 }
@@ -22,25 +23,29 @@ section {
 
 /* SECTION - MENU */
 
-#popup-menu{
-    width:100%;
-    height:106%;
+#popup-menu {
+    width: 100%;
+    height: 106%;
     background: rgba(0, 0, 0, 0.9);
     position: absolute;
     z-index: 9999;
 }
+
 .hg-wd a {
     font-weight: 600;
     color: #626262 !important;
     text-decoration: none;
 }
+
 .hg-wd ul {
     margin-top: 180px;
     margin-left: 300px;
 }
+
 .hg-wd li {
     margin-top: 45px;
 }
+
 .hg-wd ul a {
     color: #fff;
     text-transform: uppercase;
@@ -49,17 +54,21 @@ section {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 10px;
 }
+
 .hg-wd .active a {
     border-bottom: 3px solid #fff;
     text-space: 10px;
     color: #fff !important;
 }
+
 .hg-wd img {
     margin-bottom: 5px;
 }
+
 .carousel-inner img {
     opacity: 0.9;
 }
+
 .close-menu {
     position: absolute;
     right: 200px;
@@ -73,6 +82,7 @@ section {
     color: #fff;
     letter-spacing: 2px;
 }
+
 .icone {
     position: absolute;
     z-index: 999;
@@ -83,6 +93,7 @@ section {
     border-bottom: 4px solid #fff;
     padding: 8px 0;
 }
+
 .icone a {
     color: #fff;
     text-decoration: none;
@@ -91,6 +102,7 @@ section {
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+
 .menu {
     height: 1000px;
 }
@@ -102,33 +114,39 @@ section {
     position: absolute;
     top: 35px;
 }
+
 .menu .float-right {
     z-index: 999;
     position: absolute;
     top: 35px;
     right: 200px;
 }
+
 .menu .carousel-indicators li {
     background-color: #000;
     width: 16px;
     height: 16px;
     margin-right: 25px;
 }
+
 .menu .carousel-indicators {
     bottom: 90px;
 }
+
 .menu .carousel-indicators .active {
     background-color: #fff;
 }
+
 .menu h1 {
     position: absolute;
-    right:222px;
+    right: 222px;
     top: 395px;
     color: #fff;
     z-index: 999;
     font-size: 220px;
     font-weight: 400;
 }
+
 .menu p {
     position: absolute;
     right: 222px;
@@ -147,6 +165,7 @@ section {
     text-align: center;
     height: 670px;
 }
+
 .free-psd h2 {
     font-size: 60px;
     padding-top: 90px;
@@ -154,23 +173,27 @@ section {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
 }
+
 .free-psd h1 {
     font-size: 60px;
     font-weight: 700;
     padding-bottom: 40px;
     color: #000;
 }
+
 .free-psd p {
     font-size: 20px;
     font-weight: 600;
     line-height: 1.1;
 }
+
 .free-psd .phg2 {
     width: 85%;
     margin: 0 auto;
     font-weight: 500;
     line-height: 1.5;
 }
+
 .free-psd hr {
     border: 2px solid black;
     width: 80px;
@@ -183,25 +206,30 @@ section {
 .item {
     transition-property: opacity;
 }
+
 .item,
 .active.left,
 .active.right {
     opacity: 0;
 }
+
 .active,
 .next.left,
 .prev.right {
     opacity: 1;
 }
+
 .next,
 .prev,
 .active.left,
 .active.right {
     left: 0;
 }
+
 .carousel-control {
     z-index: 2;
 }
+
 html,
 body,
 .carousel,
@@ -209,18 +237,22 @@ body,
 .carousel-inner .item {
     height: 100%;
 }
+
 .carousel-indicators {
     bottom: 80px;
 }
+
 .audrey-hepburn ol li {
     width: 10px;
     height: 10px;
 }
+
 .audrey-hepburn {
     margin-top: 100px;
     height: 650px;
     background-color: #ffe9e2;
 }
+
 .audrey-hepburn h1 {
     width: 550px;
     margin-top: 140px;
@@ -230,77 +262,94 @@ body,
     font-size: 36px;
     color: #000;
 }
+
 .audrey-hepburn .float-left {
     width: 50%;
     float: left;
 }
+
 .audrey-hepburn img {
     float: right;
 }
+
 .audrey-hepburn .move-img {
     padding-right: 100px;
     padding-top: 60px;
 }
+
 .audrey-hepburn .float-right {
     width: 50%;
     float: right;
 }
+
 .audrey-hepburn p {
     margin-top: 60px;
     margin-left: 100px;
     font-size: 36px;
     font-weight: 300;
 }
+
 .audrey-hepburn li {
     border: 1px solid #999;
     border-radius: 50%;
     background-color: #ffe9e2;
 }
+
 .audrey-hepburn .carousel-indicators {
     left: 125px;
 }
+
 .audrey-hepburn .carousel-indicators .active {
     background-color: #999;
     width: 10px;
     height: 10px;
     margin: 1px;
 }
+
 /* SECTION - REASON */
 
 .reason .container {
     width: 1400px;
 }
+
 .reason h1 {
     color: #000;
     font-size: 60px;
     font-weight: 700;
     padding-top: 130px;
 }
+
 .reason hr {
     border: 2px solid;
     width: 80px;
     float: left;
     margin-top: 40px;
 }
+
 .reason .row {
     float: left;
     margin-top: 95px;
 }
+
 .reason .col-md-6 {
     border: 1px solid #eae9e7;
     width: 700px;
     height: 300px;
 }
+
 .reason .border1 {
     border-bottom: none;
     border-right: none;
 }
+
 .reason .border2 {
     border-bottom: none;
 }
+
 .reason .border3 {
     border-right: none;
 }
+
 .reason h2 {
     font-size: 30px;
     font-weight: 700;
@@ -308,6 +357,7 @@ body,
     padding-top: 55px;
     padding-left: 15px;
 }
+
 .reason h6 {
     width: 595px;
     padding-top: 45px;
@@ -316,20 +366,25 @@ body,
     font-weight: 500;
     line-height: 1.2;
 }
+
 .reason p {
     font-size: 20px;
     font-weight: 400;
     padding-left: 15px;
 }
+
 .reason .up {
     padding-top: 10px;
 }
+
 .reason .down {
     padding-top: 40px;
 }
+
 .reason .col-md-12 {
     text-align: center;
 }
+
 .reason button {
     border: 2px solid black;
     border-radius: 5px;
@@ -344,6 +399,7 @@ body,
     margin-top: 65px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .reason button:focus {
     outline: none;
 }
@@ -361,6 +417,7 @@ body,
     color: #fff;
     text-align: center;
 }
+
 .forth h1 {
     font-size: 60px;
     font-weight: 700;
@@ -370,10 +427,12 @@ body,
     margin: 0 auto;
     line-height: 1.3;
 }
+
 .forth p {
     font-size: 20px;
     font-weight: 400;
 }
+
 .forth a {
     color: #fff;
     text-decoration: underline;
@@ -381,26 +440,31 @@ body,
 
 /* SECTION - BUY-POSTERS */
 
-
 .buy-posters .bk {
     opacity: 0.6;
 }
+
 .buy-posters .bk2 {
     opacity: 0.9;
 }
+
 .buy-posters .bk3 {
     opacity: 0.8;
 }
+
 .buy-posters .bk4 {
     opacity: 0.8;
 }
+
 .buy-posters {
     background-color: #f2f4f5;
     height: 1330px;
 }
+
 .buy-posters .container {
     width: 1400px;
 }
+
 .buy-posters h1 {
     margin-top: 105px;
     margin-bottom: 25px;
@@ -408,20 +472,24 @@ body,
     font-weight: 700;
     color: #000;
 }
+
 .buy-posters hr {
     border: 2px solid black;
     width: 80px;
     float: left;
 }
+
 .buy-posters .row {
     margin-top: 95px;
     float: left;
 }
+
 .buy-posters .verticaly {
     width: 560px;
     height: 765px;
     float: left;
 }
+
 .verticaly .txt {
     position: absolute;
     top: 0;
@@ -429,6 +497,7 @@ body,
     padding-left: 120px;
     line-height: 1.1;
 }
+
 .verticaly h2 {
     font-family: "Tw Cen MT Condensed";
     font-weight: 600;
@@ -437,6 +506,7 @@ body,
     text-align: center;
     color: #fff;
 }
+
 .verticaly button {
     position: absolute;
     bottom: 40px;
@@ -450,9 +520,11 @@ body,
     letter-spacing: 3px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .verticaly button:focus {
     outline: none;
 }
+
 .verticaly a {
     position: absolute;
     bottom: 40px;
@@ -464,15 +536,18 @@ body,
     font-weight: 700;
     letter-spacing: 3px;
 }
+
 .verticaly .img {
     margin-left: 10px;
 }
+
 .buy-posters .horizontaly {
     width: 740px;
     height: 370px;
     float: right;
 }
-.buy-posters .horizontaly button{
+
+.buy-posters .horizontaly button {
     position: absolute;
     bottom: 40px;
     left: 55px;
@@ -488,9 +563,11 @@ body,
     letter-spacing: 3px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .horizontaly button:focus {
     outline: none;
 }
+
 .buy-posters .horizontaly a {
     position: absolute;
     right: 30px;
@@ -502,9 +579,11 @@ body,
     letter-spacing: 3px;
     text-decoration: none;
 }
+
 .buy-posters .horizontaly .img {
     margin-left: 10px;
 }
+
 .horizontaly h3 {
     position: absolute;
     top: 90px;
@@ -516,6 +595,7 @@ body,
     font-style: italic;
     font-family: "Times New Roman";
 }
+
 .horizontaly h6 {
     position: absolute;
     top: 185px;
@@ -524,6 +604,7 @@ body,
     font-weight: 400;
     font-family: Georgia;
 }
+
 .buy-posters .left1 {
     float: left;
     margin-top: 50px;
@@ -531,6 +612,7 @@ body,
     height: 340px;
     width: 330px;
 }
+
 .buy-posters .left1 button {
     position: absolute;
     bottom: 20px;
@@ -544,9 +626,11 @@ body,
     letter-spacing: 3px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .left1 button:focus {
     outline: none;
 }
+
 .buy-posters .left1 a {
     position: absolute;
     right: 0;
@@ -558,15 +642,18 @@ body,
     letter-spacing: 3px;
     text-decoration: none;
 }
+
 .buy-posters .left1 .img {
     margin-left: 10px;
 }
+
 .buy-posters .right1 {
     float: right;
     margin-top: 50px;
     height: 340px;
     width: 330px;
 }
+
 .buy-posters .right1 button {
     position: absolute;
     bottom: 20px;
@@ -580,9 +667,11 @@ body,
     letter-spacing: 3px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .right1 button:focus {
     outline: none;
 }
+
 .buy-posters .right1 a {
     position: absolute;
     right: 0;
@@ -594,9 +683,11 @@ body,
     letter-spacing: 3px;
     text-decoration: none;
 }
+
 .buy-posters .right1 .img {
     margin-left: 10px;
 }
+
 .left1 h3 {
     position: absolute;
     top: 35px;
@@ -606,6 +697,7 @@ body,
     font-size: 30px;
     font-family: 'Sedgwick Ave Display', cursive;
 }
+
 .right1 h3 {
     position: absolute;
     top: 170px;
@@ -615,14 +707,17 @@ body,
     font-weight: 400;
     text-transform: uppercase;
 }
+
 .right1 span {
     font-weight: 700;
     font-size: 37px;
     line-height: 1.1;
 }
+
 .buy-posters .col-md-12 {
     text-align: center;
 }
+
 .buy-posters .col-md-12 button {
     margin-top: 90px;
     background: inherit;
@@ -637,6 +732,7 @@ body,
     color: #000;
     font-family: 'Montserrat', sans-serif;
 }
+
 .buy-posters .col-md-12 button:focus {
     outline: none;
 }
@@ -646,9 +742,11 @@ body,
 .footer {
     height: 540px;
 }
+
 .footer .container {
     width: 1400px;
 }
+
 .footer h1 {
     margin-top: 125px;
     letter-spacing: 3px;
@@ -656,12 +754,15 @@ body,
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
+
 .footer ul {
     margin-top: 60px;
 }
+
 .footer li {
     margin-top: 22px;
 }
+
 .footer li a {
     color: #000;
     text-decoration: none;
@@ -669,11 +770,13 @@ body,
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
 }
+
 .footer a {
     color: #000;
     text-decoration: none;
     letter-spacing: 2px;
 }
+
 .footer p {
     margin-top: 60px;
     color: #000;
@@ -684,9 +787,11 @@ body,
     letter-spacing: 2px;
     line-height: 1.8;
 }
+
 .footer .pheight {
     line-height: 1.3;
 }
+
 .footer input {
     width: 338px;
     height: 40px;
@@ -698,9 +803,11 @@ body,
     font-size: 15px;
     font-weight: 400;
 }
+
 .footer input:focus {
     outline: none;
 }
+
 .footer button {
     width: 130px;
     height: 40px;
@@ -713,6 +820,7 @@ body,
     font-size: 16px;
     letter-spacing: 3px;
 }
+
 .footer button:focus {
     outline: none;
 }
@@ -724,9 +832,11 @@ body,
     height: 95px;
     padding: 45px 0;
 }
+
 .last-footer .container {
     width: 1400px;
 }
+
 .last-footer p {
     font-family: 'Montserrat', sans-serif;
     float: left;
@@ -735,13 +845,16 @@ body,
     letter-spacing: 2px;
     color: #000;
 }
+
 .last-footer ul {
     float: right;
 }
+
 .last-footer li {
     display: inline-block;
     margin-right: 10px;
 }
+
 .last-footer a {
     color: #d5d5d3;
     text-decoration: none;
@@ -751,24 +864,23 @@ body,
 /* RESPONSIVE - LAPTOPS */
 
 @media only screen
-and (min-width: 1030px)
-and (max-width: 1366px) {
+and (min-width: 1030px) and (max-width: 1366px) {
 
     /* MENU */
-
     #container {
         width: 1366px;
     }
+
     .menu .carousel-inner img {
         width: 100%;
         height: 1000px;
     }
+
     #popup-menu {
         height: 151%;
     }
 
     /* AUDREY-HEPBURN */
-
     .lp-respons {
         width: 100%;
         height: 650px;
@@ -780,15 +892,16 @@ and (max-width: 1366px) {
         width: 663px;
         height: 300px;
     }
+
     .border1, .border3 {
         margin-left: 12px;
     }
 
     /* BUY-POSTERS */
-
     .buy-posters .bk4 {
         width: 100%;
     }
+
     .verticaly button {
         position: absolute;
         bottom: 70px;
@@ -802,6 +915,7 @@ and (max-width: 1366px) {
         letter-spacing: 3px;
         font-family: 'Montserrat', sans-serif;
     }
+
     .verticaly a {
         position: absolute;
         bottom: 70px;
@@ -813,18 +927,22 @@ and (max-width: 1366px) {
         font-weight: 700;
         letter-spacing: 3px;
     }
+
     .buy-posters .bk3 {
         width: 100%;
     }
+
     .buy-posters .horizontaly {
         width: 740px;
         height: 370px;
         float: left;
     }
+
     .buy-posters .horizontaly .wdth {
         width: 94.5%;
         margin-left: 60px;
     }
+
     .horizontaly h3 {
         position: absolute;
         top: 90px;
@@ -836,6 +954,7 @@ and (max-width: 1366px) {
         font-style: italic;
         font-family: "Times New Roman";
     }
+
     .horizontaly h6 {
         position: absolute;
         top: 185px;
@@ -844,6 +963,7 @@ and (max-width: 1366px) {
         font-weight: 400;
         font-family: Georgia;
     }
+
     .buy-posters .horizontaly button {
         position: absolute;
         bottom: 45px;
@@ -860,6 +980,7 @@ and (max-width: 1366px) {
         letter-spacing: 3px;
         font-family: 'Montserrat', sans-serif;
     }
+
     .buy-posters .horizontaly a {
         position: absolute;
         right: 40px;
@@ -871,11 +992,13 @@ and (max-width: 1366px) {
         letter-spacing: 3px;
         text-decoration: none;
     }
+
     .buy-posters .left1 {
         float: left;
         margin-top: 10px;
         margin-left: 60px;
     }
+
     .buy-posters .right1 {
         float: left;
         margin-left: 10px;
@@ -886,6 +1009,7 @@ and (max-width: 1366px) {
     .footer input {
         width: 270px;
     }
+
     /* LAST - FOOTER */
     .last-footer ul {
         float: right;
@@ -896,13 +1020,273 @@ and (max-width: 1366px) {
 /* MOBILE RESPONSIVE */
 
 @media only screen
-and (min-device-width : 360px)
-and (max-device-width : 640px) {
+and (min-width: 320px) and (max-width: 480px) {
+
+    body {
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+    }
 
     /* MENU */
+    .menu {
+        height: 440px;
+    }
 
+    .menu .carousel-inner img {
+        width: 100%;
+        height: 400px;
+    }
 
+    #popup-menu {
+        width: 100%;
+        height: 400px;
+    }
 
+    .carousel-inner .item {
+        height: 65%;
+    }
+
+    .hg-wd li {
+        margin-top: 20px;
+    }
+
+    .carousel-inner .item {
+        height: 400px;
+    }
+
+    .icone {
+        position: absolute;
+        z-index: 999;
+        right: 15px;
+        top: 40px;
+    }
+
+    .close-menu {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .menu .carousel-indicators li {
+        background-color: #000;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+    }
+
+    .hg-wd ul {
+        margin-top: 100px;
+        margin-left: 45px;
+    }
+
+    .hg-wd ul a {
+        font-size: 20px;
+    }
+
+    /* FREE - PSD */
+    .free-psd {
+        text-align: left;
+    }
+
+    .free-psd h2 {
+        padding-top: 30px;
+        font-size: 32px;
+    }
+
+    .free-psd h1 {
+        font-size: 32px;
+    }
+
+    .free-psd p {
+        font-size: 15px;
+        text-align: left;
+        width: 25%;
+    }
+
+    .free-psd .phg2 {
+        float: left;
+        width: 25%;
+    }
+
+    .free-psd hr {
+        margin-left: 0;
+    }
+
+    /* AUDREY - HEPBURN */
+    .audrey-hepburn .float-left {
+        float: left;
+        width: 100%;
+    }
+
+    .audrey-hepburn h1 {
+        font-size: 20px;
+        margin-left: 25px;
+        margin-top: 25px;
+        width: 90%;
+    }
+
+    .audrey-hepburn p {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .audrey-hepburn img {
+        width: 180%;
+        float: right;
+        margin-right: 18px;
+        margin-top: 25px;
+    }
+
+    .audrey-hepburn .carousel-indicators {
+        left: 160px;
+        bottom: 35px;
+    }
+
+    /* REASON */
+    .reason .container {
+        width: 100%;
+    }
+
+    .reason h1 {
+        font-size: 30px;
+    }
+
+    .reason h2 {
+        font-size: 25px;
+    }
+
+    .reason h6 {
+        font-size: 15px;
+        width: 240px;
+    }
+
+    .reason .col-md-6 {
+        border: 1px solid #eae9e7;
+        width: 290px;
+        height: 290px;
+        margin-left: 25px;
+    }
+
+    .reason button {
+        margin-left: 17px;
+    }
+
+    /* FORTH */
+    .forth h1 {
+        font-size: 30px;
+        width: 332px;
+    }
+
+    .forth p {
+        font-size: 17px;
+    }
+
+    /* BUY-POSTERS */
+    .buy-posters h1 {
+        font-size: 35px;
+    }
+
+    .buy-posters img {
+        width: 100%;
+    }
+
+    .buy-posters .row {
+        float: inherit;
+    }
+
+    .buy-posters .col-md-6 {
+        float: left;
+        clear: both;
+    }
+
+    .buy-posters .col-md-3 {
+        float: left;
+        clear: both;
+    }
+
+    .buy-posters .verticaly {
+        width: 335px;
+        height: 420px;
+    }
+
+    .verticaly h2 {
+        font-size: 30px;
+    }
+
+    .verticaly .txt {
+        position: absolute;
+        top: 100px;
+        left: 110px;
+        padding-top: 0;
+        padding-left: 0;
+        line-height: 1.1;
+    }
+
+    .verticaly button {
+        font-size: 13px;
+    }
+
+    .verticaly a {
+        font-size: 10px;
+    }
+
+    .buy-posters .horizontaly {
+        width: 336px;
+        height: 190px
+    }
+
+    .horizontaly h3 {
+        font-size: 20px;
+        position: absolute;
+        top: 5px;
+        left: 32px;
+        max-width: 250px;
+    }
+
+    .horizontaly h6 {
+        position: absolute;
+        top: 65px;
+        left: 28px;
+        font-size: 13px;
+    }
+    .buy-posters .horizontaly button {
+        position: absolute;
+        bottom: 45px;
+        left: 30px;
+        width: 105px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .buy-posters .horizontaly a {
+        position: absolute;
+        right: 41px;
+        bottom: 50px;
+        font-size: 10px;
+    }
+
+    .buy-posters .img {
+        margin-left: 10px;
+        width: 20%;
+    }
+
+    /* FOOTER */
+    .footer {
+        height: auto;
+    }
+
+    .footer input {
+        width: 255px;
+    }
+
+    .footer button {
+        display: block;
+    }
+
+    /* LAST - FOOTER */
 
 }
 
