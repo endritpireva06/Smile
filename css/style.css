@@ -1254,6 +1254,11 @@ and (min-width: 320px) and (max-width: 480px) {
         margin: 1px;
     }
 
+    .slick-dots {
+        top: 610px;
+        left: 125px;
+    }
+
     /* REASON */
     .reason .container {
         width: 100%;
@@ -1554,3 +1559,15 @@ and (min-width: 320px) and (max-width: 480px) {
 
 }
 
+.slick-dots {
+    position: absolute;
+    bottom: 30px;
+    left: 95px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+.slick-dots li {
+    width: 12px;
+    height: 12px;
+}
