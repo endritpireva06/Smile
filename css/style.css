@@ -1056,7 +1056,7 @@ and (min-width: 320px) and (max-width: 480px) {
     }
 
     .float-left img {
-        width: 70%;
+        width: 55%;
     }
 
     .menu .carousel-indicators {
@@ -1086,6 +1086,14 @@ and (min-width: 320px) and (max-width: 480px) {
         z-index: 999;
         right: 15px;
         top: 40px;
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        padding: 3px 0;
+    }
+
+    .icone a {
+        font-size: 11px;
+        letter-spacing: 2px;
     }
 
     .close-menu {
@@ -1096,22 +1104,22 @@ and (min-width: 320px) and (max-width: 480px) {
 
     .menu .carousel-indicators li {
         background-color: #000;
-        width: 15px;
-        height: 15px;
-        margin-right: 10px;
+        width: 13px;
+        height: 13px;
+        margin-right: 5px;
     }
 
     .hg-wd li {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .hg-wd ul {
-        margin-top: 40px;
+        margin-top: 90px;
         margin-left: 45px;
     }
 
     .hg-wd ul a {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .close-menu img {
@@ -1122,8 +1130,8 @@ and (min-width: 320px) and (max-width: 480px) {
         max-width: 50px;
         font-size: 8px;
         position: absolute;
-        right: 20px;
-        top: 20px;
+        right: 15px;
+        top: 40px;
     }
 
     /* FREE - PSD */
@@ -1178,16 +1186,16 @@ and (min-width: 320px) and (max-width: 480px) {
     }
 
     .audrey-hepburn img {
-        width: 180%;
+        width: 185%;
         height: 290px;
         float: right;
-        margin-right: 18px;
+        margin-right: 10px;
         margin-top: 25px;
     }
 
     .audrey-hepburn ol li {
-        width: 15px;
-        height: 15px;
+        width: 13px;
+        height: 13px;
     }
 
     .audrey-hepburn .carousel-indicators {
@@ -1197,8 +1205,8 @@ and (min-width: 320px) and (max-width: 480px) {
 
     .audrey-hepburn .carousel-indicators .active {
         background-color: #999;
-        width: 15px;
-        height: 15px;
+        width: 13px;
+        height: 13px;
         margin: 1px;
     }
 
@@ -1232,6 +1240,15 @@ and (min-width: 320px) and (max-width: 480px) {
         margin-left: 7px;
     }
 
+    .reason .border1 {
+        border-bottom: none;
+    }
+    .reason .border2 {
+        border-bottom: none;
+    }
+    .reason .border3 {
+        border-bottom: none;
+    }
     .reason button {
         margin-left: 15px;
         margin-top: 55px;
@@ -1240,15 +1257,18 @@ and (min-width: 320px) and (max-width: 480px) {
     /* FORTH */
     .forth {
         margin-top: 80px;
+        height: auto;
     }
 
     .forth h1 {
         font-size: 30px;
         width: 332px;
+        padding-top: 40px;
     }
 
     .forth p {
         font-size: 17px;
+        padding-bottom: 40px;
     }
 
     /* BUY-POSTERS */
@@ -1267,7 +1287,7 @@ and (min-width: 320px) and (max-width: 480px) {
         margin-top: 60px;
     }
 
-    .buy-posters img {
+    .buy-posters .img4 {
         width: 100%;
         float: right;
         margin-right: 8px;
@@ -1293,13 +1313,13 @@ and (min-width: 320px) and (max-width: 480px) {
     }
 
     .verticaly h2 {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .verticaly .txt {
         position: absolute;
         top: 100px;
-        left: 85px;
+        left: 60px;
         padding-top: 0;
         padding-left: 0;
         line-height: 1.1;
@@ -1357,10 +1377,22 @@ and (min-width: 320px) and (max-width: 480px) {
         width: 337px;
         margin-bottom: 20px;
     }
+    .buy-posters .right1 .img {
+        margin-left: 0;
+    }
+    .buy-posters .left1 .img {
+        margin-left: 0;
+    }
+    .buy-posters .horizontaly .img {
+        margin-left: 0;
+    }
+    .buy-posters .verticaly .img {
+        margin-left: 0;
+    }
 
     .buy-posters .img {
-        margin-left: 10px;
         width: 20%;
+        margin-left: 0;
     }
 
     .buy-posters .left1 button {
@@ -1368,6 +1400,14 @@ and (min-width: 320px) and (max-width: 480px) {
         top: 275px;
         left: 20px;
         font-size: 13px;
+        bottom: 20px;
+        border: none;
+        background-color: initial;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 3px;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .buy-posters .left1 a {
@@ -1452,7 +1492,13 @@ and (min-width: 320px) and (max-width: 480px) {
         float: left;
         clear: both;
         margin-top: 20px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
+    .last-footer a {
+        color: #d5d5d3;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
 }
 
