@@ -42,11 +42,17 @@ section {
 
 .carousel-control.right {
     background-image: none;
+    display: none;
+    cursor: pointer;
 }
 
 .carousel-control.left {
     background-image: none;
+    display: none;
+    cursor: pointer;
 }
+
+
 
 .hg-wd a {
     font-weight: 600;
@@ -1066,10 +1072,16 @@ and (min-width: 320px) and (max-width: 480px) {
 
     .carousel-control.right {
         background-image: none;
+        display: inherit;
     }
 
     .carousel-control.left {
         background-image: none;
+        display: inherit;
+    }
+
+    #myCarousel a {
+
     }
 
     .menu h1 {
