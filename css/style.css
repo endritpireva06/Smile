@@ -226,41 +226,6 @@ section {
 
 /* SECTION - AUDERY-HEPBURN */
 
-.item {
-    transition-property: opacity;
-}
-
-.item,
-.active.left,
-.active.right {
-    opacity: 0;
-}
-
-.active,
-.next.left,
-.prev.right {
-    opacity: 1;
-}
-
-.next,
-.prev,
-.active.left,
-.active.right {
-    left: 0;
-}
-
-.carousel-control {
-    z-index: 2;
-}
-
-html,
-body,
-.carousel,
-.carousel-inner,
-.carousel-inner .item {
-    height: 100%;
-}
-
 .carousel-indicators {
     bottom: 80px;
 }
@@ -327,6 +292,27 @@ body,
     width: 10px;
     height: 10px;
     margin: 1px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 30px;
+    left: 95px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+.slick-dots li {
+    width: 12px;
+    height: 12px;
+}
+
+.audrey-hepburn li.slick-active{
+    background-color: #999;
+}
+
+.slick-slide, .slick-slide *{
+    outline: none !important;
 }
 
 /* SECTION - REASON */
@@ -1042,6 +1028,12 @@ and (min-width: 1030px) and (max-width: 1366px) {
         float: right;
         margin-right: 75px;
     }
+    #prev {
+        display: none;
+    }
+    #next {
+        display: none;
+    }
 }
 
 /* MOBILE RESPONSIVE */
@@ -1062,12 +1054,18 @@ and (min-width: 320px) and (max-width: 480px) {
         height: 320px;
     }
 
+    #myCarousel ol{
+        bottom: 110px;
+    }
+
     .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
         display: inherit;
+        top: 42%;
     }
 
     .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
         display: inherit;
+        top: 42%;
     }
 
     .carousel-control.right {
@@ -1078,10 +1076,6 @@ and (min-width: 320px) and (max-width: 480px) {
     .carousel-control.left {
         background-image: none;
         display: inherit;
-    }
-
-    #myCarousel a {
-
     }
 
     .menu h1 {
@@ -1257,12 +1251,9 @@ and (min-width: 320px) and (max-width: 480px) {
     .audrey-hepburn ul {
         bottom: 0;
         top: 610px;
-        left: 125px;
+        left: 120px;
     }
 
-    {
-         background-color: #999;
-    }
 
     /* REASON */
     .reason .container {
@@ -1564,15 +1555,4 @@ and (min-width: 320px) and (max-width: 480px) {
 
 }
 
-.slick-dots {
-    position: absolute;
-    bottom: 30px;
-    left: 95px;
-    display: block;
-    width: 100%;
-    text-align: left;
-}
-.slick-dots li {
-    width: 12px;
-    height: 12px;
-}
+
