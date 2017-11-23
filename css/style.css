@@ -1254,10 +1254,14 @@ and (min-width: 320px) and (max-width: 480px) {
         margin: 1px;
     }
 
-    .slick-dots {
+    .audrey-hepburn ul {
         bottom: 0;
         top: 610px;
         left: 125px;
+    }
+
+    {
+         background-color: #999;
     }
 
     /* REASON */
