@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/index.html" line="344" />
+    <bookmark url="file://$PROJECT_DIR$/index.html" line="341" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fae3e045-6afc-4fa3-b15f-a5a03c1caef8" name="Default" comment="maybe Done">
+    <list default="true" id="fae3e045-6afc-4fa3-b15f-a5a03c1caef8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -20,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="371" column="9" lean-forward="false" selection-start-line="371" selection-start-column="9" selection-end-line="371" selection-end-column="9" />
+            <state relative-caret-position="280">
+              <caret line="342" column="47" lean-forward="false" selection-start-line="342" selection-start-column="47" selection-end-line="342" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -187,7 +187,7 @@
       <workItem from="1511442294825" duration="449000" />
       <workItem from="1511450165867" duration="598000" />
       <workItem from="1512512928165" duration="896000" />
-      <workItem from="1513200932982" duration="3173000" />
+      <workItem from="1513200932982" duration="3354000" />
     </task>
     <task id="LOCAL-00001" summary="Add links in footer">
       <created>1510756187389</created>
@@ -525,11 +525,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513203967324</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="maybe Done">
+      <created>1513204141680</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1513204141680</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138767000" />
+    <option name="totallyTimeSpent" value="138948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -972,8 +979,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="371" column="9" lean-forward="false" selection-start-line="371" selection-start-column="9" selection-end-line="371" selection-end-column="9" />
+        <state relative-caret-position="280">
+          <caret line="342" column="47" lean-forward="false" selection-start-line="342" selection-start-column="47" selection-end-line="342" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
