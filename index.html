@@ -343,50 +343,33 @@
     </section>
 </div>
 
+<script src="js/slick.min.js"></script>
 <script>
     $(document).ready(function () {
         $("#popup-menu").hide();
-    });
-
-    $(".icone").on("click", function (e) {
-        e.preventDefault();
-        $(".icone").hide();
-        $("#popup-menu").show();
-    });
-
-    $(".close-menu").on("click", function (e) {
-        e.preventDefault();
-        $(".icone").show();
-        $("#popup-menu").hide();
-    });
-
-</script>
-
-<script>
-    $('.carousel').carousel();
-</script>
-
-<script>
-    $('.second-block #carousel').attr("id", "#carousel-2").find('.controls a').attr("href", "#carousel-2");
-    $('.fourth-block #carousel').attr("id", "#carousel-3").find('.controls a').attr("href", "#carousel-3");
-</script>
-
-<script src="js/slick.min.js"></script>
-
-<script>
-    $(function () {
         $('.slick-slider').slick({
             dots: true,
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1
         });
+
+        $(".icone").on("click", function (e) {
+            e.preventDefault();
+            $(".icone").hide();
+            $("#popup-menu").show();
+        });
+
+        $(".close-menu").on("click", function (e) {
+            e.preventDefault();
+            $(".icone").show();
+            $("#popup-menu").hide();
+        });
+
+
+        $('.carousel').carousel();
     });
-
-
 </script>
-
-
 </body>
 </html>
 
